@@ -5,11 +5,16 @@ body {
     background-color: #f4f4f4;
 }
 
+img{
+    width: 300px;
+    height: 300px;
+}
+
 h1 {
     text-align: center;
 }
 
-form {
+form, table {
     margin: 20px auto;
     width: 80%;
     max-width: 600px;
@@ -20,9 +25,29 @@ input, button {
     width: calc(100% - 20px);
     margin: 10px auto;
     padding: 10px;
+    border: 2px solid black;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+thead {
+    background-color: #f9f9f9;
+}
+
+.login {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
